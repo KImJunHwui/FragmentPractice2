@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/firstFragmentTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="첫번째 프래그먼트"/>
+
+    <Button
+        android:id="@+id/changeSubjectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제목 변경"/>
+
+    <Button
+        android:id="@+id/makeToastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기"/>
+
+</LinearLayout>
